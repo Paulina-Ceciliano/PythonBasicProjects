@@ -31,14 +31,8 @@ while True:
         print('You won!')
         user_wins += 1
 
-    elif user_input == "scissors" and computer_pick == "scissors":
-        print('Draw!')
-
-    elif user_input == "paper" and computer_pick == "paper":
-        print('Draw!')
-
-    elif user_input == "rock" and computer_pick == "rock":
-        print('Draw!')
+    elif user_input == computer_pick:
+        print('Tie!')
     
     else:
         print('You lost!')
