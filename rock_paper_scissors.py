@@ -31,8 +31,8 @@ while True:
         print('You won!')
         user_wins += 1
 
-    elif user_input == computer_pick:
-        print('Tie!')
+    # elif user_input == computer_pick:
+    #     print('Tie!')
     
     else:
         print('You lost!')
